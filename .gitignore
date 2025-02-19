@@ -2,4 +2,9 @@ node_modules/
 .next/
 .env
 .env.local
-.DS_Store 
+.DS_Store
+# Add these lines to protect secrets
+.env*
+*.token
+.tokens
+.secrets 
